@@ -1,0 +1,15 @@
+n = int(input("enter the number :"))
+i = 0
+sum = 0
+while i<=n :
+    sum = sum + i
+    i+=1
+print("total sum =",sum)
+    
+
+info = {
+    "name" : "vansh",
+    "sub" : ["cs","python"],
+    "library" : {'key' : 'value'}
+}
+print(info.keys())
